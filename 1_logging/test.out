@@ -1,0 +1,2909 @@
+[INFO] Running filter 1_logging.lua
+Str Str "an"
+Str Str "example"
+Str Str "to"
+Str Str "test"
+Str Str "logging"
+Str Str "tag1"
+Str Str "tag2"
+Str Str "tag3"
+Str Str "Example"
+Str Str "Blocks"
+Str Str "Paragraph"
+Str Str "HereΓÇÖs"
+Str Str "a"
+Str Str "paragraph"
+Str Str "Bulleted"
+Str Str "List"
+Str Str "apple"
+Str Str "orange"
+Str Str "banana"
+Str Str "Numbered"
+Str Str "List"
+Str Str "First"
+Str Str "Second"
+Str Str "Third"
+Str Str "Codeblock"
+Str Str "Div"
+Str Str "Content"
+Str Str "inside"
+Str Str "a"
+Str Str "div"
+Str Str "Table"
+Str Str "Column"
+Str Str "1"
+Str Str "Header"
+Str Str "Column"
+Str Str "2"
+Str Str "Header"
+Str Str "Column"
+Str Str "1"
+Str Str "Value"
+Str Str "Column"
+Str Str "2"
+Str Str "Value"
+Str Str "BulletLists"
+Str Str "with"
+Str Str "Nested"
+Str Str "Content"
+Str Str "lists"
+Str Str "with"
+Str Str "nested"
+Str Str "content"
+Str Str "Such"
+Str Str "as"
+Str Str "a"
+Str Str "paragraph"
+Str Str "or"
+Str Str "maybe"
+Str Str "a"
+Str Str "list"
+Str Str "with"
+Str Str "nested"
+Str Str "lists"
+Str Str "nested"
+Str Str "1"
+Str Str "nested"
+Str Str "1a"
+Str Str "nested"
+Str Str "2"
+Str Str "or"
+Str Str "maybe"
+Str Str "a"
+Str Str "nested"
+Str Str "code"
+Str Str "block"
+Str Str "or"
+Str Str "maybe"
+Str Str "a"
+Str Str "table"
+Str Str "Col1"
+Str Str "Col2"
+Str Str "ValA"
+Str Str "ValB"
+Str Str "Note"
+Strong Strong {content: Inlines {[1] Str "Note"}}
+Str Str ":"
+Str Str "This"
+Str Str "is"
+Str Str "a"
+Str Str "blockquote."
+Str Str "Take"
+Str Str "note."
+Str Str "Inline"
+Str Str "Citations"
+Str Str "Pandoc"
+Str Str "supports"
+Str Str "citations"
+Str Str "[@pandoc-1]"
+Cite----------------
+(I) Cite Cite {
+  citations: List {
+    [1] Citation {
+      hash: 0
+      id: "pandoc-1"
+      mode: "NormalCitation"
+      note_num: 1
+      prefix: Inlines {}
+      suffix: Inlines {}
+    }
+  }
+  content: Inlines {
+    [1] Str "[@pandoc-1]"
+  }
+}
+Str Str "Emphasis"
+Str Str "This"
+Str Str "is"
+Str Str "emphasized"
+Emph Emph {content: Inlines {[1] Str "emphasized"}}
+Str Str "."
+Str Str "Strong"
+Str Str "This"
+Str Str "is"
+Str Str "Strong"
+Strong Strong {content: Inlines {[1] Str "Strong"}}
+Str Str "."
+Str Str "Strikeout"
+Str Str "You"
+Str Str "can"
+Str Str "Strikeout"
+Str Str "at"
+Str Str "bat."
+Str Str "Code"
+Str Str "This"
+Str Str "statement"
+Str Str "has"
+Str Str "a"
+Code Code {
+  attr: Attr {
+    attributes: AttributeList {}
+    classes: List {}
+    identifier: ""
+  }
+  text: "Code"
+}
+Str Str "block"
+Str Str "in"
+Str Str "it."
+Inlines-------------
+(I) Inlines: Inlines {
+  [1] Str "an"
+  [2] Space
+  [3] Str "example"
+  [4] Space
+  [5] Str "to"
+  [6] Space
+  [7] Str "test"
+  [8] Space
+  [9] Str "logging"
+}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "tag1"}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "tag2"}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "tag3"}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "Example"}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "Blocks"}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "Paragraph"}
+Inlines-------------
+(I) Inlines: Inlines {
+  [1] Str "HereΓÇÖs"
+  [2] Space
+  [3] Str "a"
+  [4] Space
+  [5] Str "paragraph"
+}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "Bulleted", [2] Space, [3] Str "List"}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "apple"}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "orange"}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "banana"}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "Numbered", [2] Space, [3] Str "List"}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "First"}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "Second"}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "Third"}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "Codeblock"}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "Div"}
+Inlines-------------
+(I) Inlines: Inlines {
+  [1] Str "Content"
+  [2] Space
+  [3] Str "inside"
+  [4] Space
+  [5] Str "a"
+  [6] Space
+  [7] Str "div"
+}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "Table"}
+Inlines-------------
+(I) Inlines: Inlines {
+  [1] Str "Column"
+  [2] Space
+  [3] Str "1"
+  [4] Space
+  [5] Str "Header"
+}
+Inlines-------------
+(I) Inlines: Inlines {
+  [1] Str "Column"
+  [2] Space
+  [3] Str "2"
+  [4] Space
+  [5] Str "Header"
+}
+Inlines-------------
+(I) Inlines: Inlines {
+  [1] Str "Column"
+  [2] Space
+  [3] Str "1"
+  [4] Space
+  [5] Str "Value"
+}
+Inlines-------------
+(I) Inlines: Inlines {
+  [1] Str "Column"
+  [2] Space
+  [3] Str "2"
+  [4] Space
+  [5] Str "Value"
+}
+Inlines-------------
+(I) Inlines: Inlines {
+  [1] Str "BulletLists"
+  [2] Space
+  [3] Str "with"
+  [4] Space
+  [5] Str "Nested"
+  [6] Space
+  [7] Str "Content"
+}
+Inlines-------------
+(I) Inlines: Inlines {
+  [1] Str "lists"
+  [2] Space
+  [3] Str "with"
+  [4] Space
+  [5] Str "nested"
+  [6] Space
+  [7] Str "content"
+}
+Inlines-------------
+(I) Inlines: Inlines {
+  [1] Str "Such"
+  [2] Space
+  [3] Str "as"
+  [4] Space
+  [5] Str "a"
+  [6] Space
+  [7] Str "paragraph"
+}
+Inlines-------------
+(I) Inlines: Inlines {
+  [1] Str "or"
+  [2] Space
+  [3] Str "maybe"
+  [4] Space
+  [5] Str "a"
+  [6] Space
+  [7] Str "list"
+  [8] Space
+  [9] Str "with"
+  [10] Space
+  [11] Str "nested"
+  [12] Space
+  [13] Str "lists"
+}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "nested", [2] Space, [3] Str "1"}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "nested", [2] Space, [3] Str "1a"}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "nested", [2] Space, [3] Str "2"}
+Inlines-------------
+(I) Inlines: Inlines {
+  [1] Str "or"
+  [2] Space
+  [3] Str "maybe"
+  [4] Space
+  [5] Str "a"
+  [6] Space
+  [7] Str "nested"
+  [8] Space
+  [9] Str "code"
+  [10] Space
+  [11] Str "block"
+}
+Inlines-------------
+(I) Inlines: Inlines {
+  [1] Str "or"
+  [2] Space
+  [3] Str "maybe"
+  [4] Space
+  [5] Str "a"
+  [6] Space
+  [7] Str "table"
+}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "Col1"}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "Col2"}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "ValA"}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "ValB"}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "Note"}
+Inlines-------------
+(I) Inlines: Inlines {[1] Strong {content: Inlines {[1] Str "Note"}}, [2] Str ":"}
+Inlines-------------
+(I) Inlines: Inlines {
+  [1] Str "This"
+  [2] Space
+  [3] Str "is"
+  [4] Space
+  [5] Str "a"
+  [6] Space
+  [7] Str "blockquote."
+  [8] Space
+  [9] Str "Take"
+  [10] Space
+  [11] Str "note."
+}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "Inline"}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "Citations"}
+Inlines-------------
+(I) Inlines: Inlines {}
+Inlines-------------
+(I) Inlines: Inlines {}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "[@pandoc-1]"}
+Inlines-------------
+(I) Inlines: Inlines {
+  [1] Str "Pandoc"
+  [2] Space
+  [3] Str "supports"
+  [4] Space
+  [5] Str "citations"
+  [6] Space
+  [7] Cite {
+    citations: List {
+      [1] Citation {
+        hash: 0
+        id: "pandoc-1"
+        mode: "NormalCitation"
+        note_num: 1
+        prefix: Inlines {}
+        suffix: Inlines {}
+      }
+    }
+    content: Inlines {
+      [1] Str "[@pandoc-1]"
+    }
+  }
+}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "Emphasis"}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "emphasized"}
+Inlines-------------
+(I) Inlines: Inlines {
+  [1] Str "This"
+  [2] Space
+  [3] Str "is"
+  [4] Space
+  [5] Emph {
+    content: Inlines {
+      [1] Str "emphasized"
+    }
+  }
+  [6] Str "."
+}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "Strong"}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "Strong"}
+Inlines-------------
+(I) Inlines: Inlines {
+  [1] Str "This"
+  [2] Space
+  [3] Str "is"
+  [4] Space
+  [5] Strong {
+    content: Inlines {
+      [1] Str "Strong"
+    }
+  }
+  [6] Str "."
+}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "Strikeout"}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "Strikeout"}
+Inlines-------------
+(I) Inlines: Inlines {
+  [1] Str "You"
+  [2] Space
+  [3] Str "can"
+  [4] Space
+  [5] Strikeout {
+    content: Inlines {
+      [1] Str "Strikeout"
+    }
+  }
+  [6] Space
+  [7] Str "at"
+  [8] Space
+  [9] Str "bat."
+}
+Inlines-------------
+(I) Inlines: Inlines {[1] Str "Code"}
+Inlines-------------
+(I) Inlines: Inlines {
+  [1] Str "This"
+  [2] Space
+  [3] Str "statement"
+  [4] Space
+  [5] Str "has"
+  [6] Space
+  [7] Str "a"
+  [8] Space
+  [9] Code {
+    attr: Attr {
+      attributes: AttributeList {}
+      classes: List {}
+      identifier: ""
+    }
+    text: "Code"
+  }
+  [10] Space
+  [11] Str "block"
+  [12] Space
+  [13] Str "in"
+  [14] Space
+  [15] Str "it."
+}
+Header---------------
+(I) Header content: Header {
+  attr: Attr {
+    attributes: AttributeList {}
+    classes: List {}
+    identifier: "example"
+  }
+  content: Inlines {
+    [1] Str "Example"
+  }
+  level: 1
+}
+Header---------------
+(I) Header content: Header {
+  attr: Attr {
+    attributes: AttributeList {}
+    classes: List {}
+    identifier: "blocks"
+  }
+  content: Inlines {
+    [1] Str "Blocks"
+  }
+  level: 2
+}
+Header---------------
+(I) Header content: Header {
+  attr: Attr {
+    attributes: AttributeList {}
+    classes: List {}
+    identifier: "paragraph"
+  }
+  content: Inlines {
+    [1] Str "Paragraph"
+  }
+  level: 3
+}
+Para-----------------
+(I) Para content: Para {
+  content: Inlines {
+    [1] Str "HereΓÇÖs"
+    [2] Space
+    [3] Str "a"
+    [4] Space
+    [5] Str "paragraph"
+  }
+}
+Header---------------
+(I) Header content: Header {
+  attr: Attr {
+    attributes: AttributeList {}
+    classes: List {}
+    identifier: "bulleted-list"
+  }
+  content: Inlines {
+    [1] Str "Bulleted"
+    [2] Space
+    [3] Str "List"
+  }
+  level: 3
+}
+Plain---------------
+(I) Plain content: Plain {content: Inlines {[1] Str "apple"}}
+Plain---------------
+(I) Plain content: Plain {content: Inlines {[1] Str "orange"}}
+Plain---------------
+(I) Plain content: Plain {content: Inlines {[1] Str "banana"}}
+BulletList-----------
+(I) Bulletlist items: BulletList {
+  content: List {
+    [1] Blocks {
+      [1] Plain {
+        content: Inlines {
+          [1] Str "apple"
+        }
+      }
+    }
+    [2] Blocks {
+      [1] Plain {
+        content: Inlines {
+          [1] Str "orange"
+        }
+      }
+    }
+    [3] Blocks {
+      [1] Plain {
+        content: Inlines {
+          [1] Str "banana"
+        }
+      }
+    }
+  }
+}
+Header---------------
+(I) Header content: Header {
+  attr: Attr {
+    attributes: AttributeList {}
+    classes: List {}
+    identifier: "numbered-list"
+  }
+  content: Inlines {
+    [1] Str "Numbered"
+    [2] Space
+    [3] Str "List"
+  }
+  level: 3
+}
+Plain---------------
+(I) Plain content: Plain {content: Inlines {[1] Str "First"}}
+Plain---------------
+(I) Plain content: Plain {content: Inlines {[1] Str "Second"}}
+Plain---------------
+(I) Plain content: Plain {content: Inlines {[1] Str "Third"}}
+OrderedList----------
+(I) OrderedList items: OrderedList {
+  content: List {
+    [1] Blocks {
+      [1] Plain {
+        content: Inlines {
+          [1] Str "First"
+        }
+      }
+    }
+    [2] Blocks {
+      [1] Plain {
+        content: Inlines {
+          [1] Str "Second"
+        }
+      }
+    }
+    [3] Blocks {
+      [1] Plain {
+        content: Inlines {
+          [1] Str "Third"
+        }
+      }
+    }
+  }
+  listAttributes: ListAttributes {
+    delimiter: "Period"
+    start: 1
+    style: "Decimal"
+  }
+}
+Header---------------
+(I) Header content: Header {
+  attr: Attr {
+    attributes: AttributeList {}
+    classes: List {}
+    identifier: "codeblock"
+  }
+  content: Inlines {
+    [1] Str "Codeblock"
+  }
+  level: 3
+}
+CodeBlock------------
+(I) Codeblock text: CodeBlock {
+  attr: Attr {
+    attributes: AttributeList {}
+    classes: List {
+      [1] "powershell"
+    }
+    identifier: ""
+  }
+  text: "# a code block
+write-host "hello world""
+}
+Header---------------
+(I) Header content: Header {
+  attr: Attr {
+    attributes: AttributeList {}
+    classes: List {}
+    identifier: "div"
+  }
+  content: Inlines {
+    [1] Str "Div"
+  }
+  level: 3
+}
+Para-----------------
+(I) Para content: Para {
+  content: Inlines {
+    [1] Str "Content"
+    [2] Space
+    [3] Str "inside"
+    [4] Space
+    [5] Str "a"
+    [6] Space
+    [7] Str "div"
+  }
+}
+Div------------------
+(I) Div content: Div {
+  attr: Attr {
+    attributes: AttributeList {}
+    classes: List {
+      [1] "mermaid"
+    }
+    identifier: ""
+  }
+  content: Blocks {
+    [1] Para {
+      content: Inlines {
+        [1] Str "Content"
+        [2] Space
+        [3] Str "inside"
+        [4] Space
+        [5] Str "a"
+        [6] Space
+        [7] Str "div"
+      }
+    }
+  }
+}
+Header---------------
+(I) Header content: Header {
+  attr: Attr {
+    attributes: AttributeList {}
+    classes: List {}
+    identifier: "table"
+  }
+  content: Inlines {
+    [1] Str "Table"
+  }
+  level: 3
+}
+Plain---------------
+(I) Plain content: Plain {
+  content: Inlines {
+    [1] Str "Column"
+    [2] Space
+    [3] Str "1"
+    [4] Space
+    [5] Str "Header"
+  }
+}
+Plain---------------
+(I) Plain content: Plain {
+  content: Inlines {
+    [1] Str "Column"
+    [2] Space
+    [3] Str "2"
+    [4] Space
+    [5] Str "Header"
+  }
+}
+Plain---------------
+(I) Plain content: Plain {
+  content: Inlines {
+    [1] Str "Column"
+    [2] Space
+    [3] Str "1"
+    [4] Space
+    [5] Str "Value"
+  }
+}
+Plain---------------
+(I) Plain content: Plain {
+  content: Inlines {
+    [1] Str "Column"
+    [2] Space
+    [3] Str "2"
+    [4] Space
+    [5] Str "Value"
+  }
+}
+Table---------------
+(I) Table table: Table {
+  attr: Attr {
+    attributes: AttributeList {}
+    classes: List {}
+    identifier: ""
+  }
+  bodies: List {
+    [1] {
+      attr: Attr {
+        attributes: AttributeList {}
+        classes: List {}
+        identifier: ""
+      }
+      body: List {
+        [1] pandoc.Row {
+          attr: Attr {
+            attributes: AttributeList {}
+            classes: List {}
+            identifier: ""
+          }
+          cells: List {
+            [1] pandoc.Cell {
+              alignment: "AlignDefault"
+              attr: Attr {
+                attributes: AttributeList {}
+                classes: List {}
+                identifier: ""
+              }
+              col_span: 1
+              contents: Blocks {
+                [1] Plain {
+                  content: Inlines {
+                    [1] Str "Column"
+                    [2] Space
+                    [3] Str "1"
+                    [4] Space
+                    [5] Str "Value"
+                  }
+                }
+              }
+              row_span: 1
+            }
+            [2] pandoc.Cell {
+              alignment: "AlignDefault"
+              attr: Attr {
+                attributes: AttributeList {}
+                classes: List {}
+                identifier: ""
+              }
+              col_span: 1
+              contents: Blocks {
+                [1] Plain {
+                  content: Inlines {
+                    [1] Str "Column"
+                    [2] Space
+                    [3] Str "2"
+                    [4] Space
+                    [5] Str "Value"
+                  }
+                }
+              }
+              row_span: 1
+            }
+          }
+        }
+      }
+      head: List {}
+      row_head_columns: 0
+    }
+  }
+  caption: {
+    long: Blocks {}
+  }
+  colspecs: List {
+    [1] {
+      [1] "AlignDefault"
+    }
+    [2] {
+      [1] "AlignDefault"
+    }
+  }
+  foot: pandoc.TableFoot {
+    attr: Attr {
+      attributes: AttributeList {}
+      classes: List {}
+      identifier: ""
+    }
+    rows: List {}
+  }
+  head: pandoc.TableHead {
+    attr: Attr {
+      attributes: AttributeList {}
+      classes: List {}
+      identifier: ""
+    }
+    rows: List {
+      [1] pandoc.Row {
+        attr: Attr {
+          attributes: AttributeList {}
+          classes: List {}
+          identifier: ""
+        }
+        cells: List {
+          [1] pandoc.Cell {
+            alignment: "AlignDefault"
+            attr: Attr {
+              attributes: AttributeList {}
+              classes: List {}
+              identifier: ""
+            }
+            col_span: 1
+            contents: Blocks {
+              [1] Plain {
+                content: Inlines {
+                  [1] Str "Column"
+                  [2] Space
+                  [3] Str "1"
+                  [4] Space
+                  [5] Str "Header"
+                }
+              }
+            }
+            row_span: 1
+          }
+          [2] pandoc.Cell {
+            alignment: "AlignDefault"
+            attr: Attr {
+              attributes: AttributeList {}
+              classes: List {}
+              identifier: ""
+            }
+            col_span: 1
+            contents: Blocks {
+              [1] Plain {
+                content: Inlines {
+                  [1] Str "Column"
+                  [2] Space
+                  [3] Str "2"
+                  [4] Space
+                  [5] Str "Header"
+                }
+              }
+            }
+            row_span: 1
+          }
+        }
+      }
+    }
+  }
+}
+Header---------------
+(I) Header content: Header {
+  attr: Attr {
+    attributes: AttributeList {}
+    classes: List {}
+    identifier: "bulletlists-with-nested-content"
+  }
+  content: Inlines {
+    [1] Str "BulletLists"
+    [2] Space
+    [3] Str "with"
+    [4] Space
+    [5] Str "Nested"
+    [6] Space
+    [7] Str "Content"
+  }
+  level: 3
+}
+Para-----------------
+(I) Para content: Para {
+  content: Inlines {
+    [1] Str "lists"
+    [2] Space
+    [3] Str "with"
+    [4] Space
+    [5] Str "nested"
+    [6] Space
+    [7] Str "content"
+  }
+}
+Para-----------------
+(I) Para content: Para {
+  content: Inlines {
+    [1] Str "Such"
+    [2] Space
+    [3] Str "as"
+    [4] Space
+    [5] Str "a"
+    [6] Space
+    [7] Str "paragraph"
+  }
+}
+Para-----------------
+(I) Para content: Para {
+  content: Inlines {
+    [1] Str "or"
+    [2] Space
+    [3] Str "maybe"
+    [4] Space
+    [5] Str "a"
+    [6] Space
+    [7] Str "list"
+    [8] Space
+    [9] Str "with"
+    [10] Space
+    [11] Str "nested"
+    [12] Space
+    [13] Str "lists"
+  }
+}
+Plain---------------
+(I) Plain content: Plain {content: Inlines {[1] Str "nested", [2] Space, [3] Str "1"}}
+Plain---------------
+(I) Plain content: Plain {content: Inlines {[1] Str "nested", [2] Space, [3] Str "1a"}}
+BulletList-----------
+(I) Bulletlist items: BulletList {
+  content: List {
+    [1] Blocks {
+      [1] Plain {
+        content: Inlines {
+          [1] Str "nested"
+          [2] Space
+          [3] Str "1a"
+        }
+      }
+    }
+  }
+}
+Plain---------------
+(I) Plain content: Plain {content: Inlines {[1] Str "nested", [2] Space, [3] Str "2"}}
+BulletList-----------
+(I) Bulletlist items: BulletList {
+  content: List {
+    [1] Blocks {
+      [1] Plain {
+        content: Inlines {
+          [1] Str "nested"
+          [2] Space
+          [3] Str "1"
+        }
+      }
+      [2] BulletList {
+        content: List {
+          [1] Blocks {
+            [1] Plain {
+              content: Inlines {
+                [1] Str "nested"
+                [2] Space
+                [3] Str "1a"
+              }
+            }
+          }
+        }
+      }
+    }
+    [2] Blocks {
+      [1] Plain {
+        content: Inlines {
+          [1] Str "nested"
+          [2] Space
+          [3] Str "2"
+        }
+      }
+    }
+  }
+}
+Para-----------------
+(I) Para content: Para {
+  content: Inlines {
+    [1] Str "or"
+    [2] Space
+    [3] Str "maybe"
+    [4] Space
+    [5] Str "a"
+    [6] Space
+    [7] Str "nested"
+    [8] Space
+    [9] Str "code"
+    [10] Space
+    [11] Str "block"
+  }
+}
+CodeBlock------------
+(I) Codeblock text: CodeBlock {
+  attr: Attr {
+    attributes: AttributeList {}
+    classes: List {
+      [1] "shell"
+    }
+    identifier: ""
+  }
+  text: "pandoc -t -f"
+}
+Para-----------------
+(I) Para content: Para {
+  content: Inlines {
+    [1] Str "or"
+    [2] Space
+    [3] Str "maybe"
+    [4] Space
+    [5] Str "a"
+    [6] Space
+    [7] Str "table"
+  }
+}
+Plain---------------
+(I) Plain content: Plain {content: Inlines {[1] Str "Col1"}}
+Plain---------------
+(I) Plain content: Plain {content: Inlines {[1] Str "Col2"}}
+Plain---------------
+(I) Plain content: Plain {content: Inlines {[1] Str "ValA"}}
+Plain---------------
+(I) Plain content: Plain {content: Inlines {[1] Str "ValB"}}
+Table---------------
+(I) Table table: Table {
+  attr: Attr {
+    attributes: AttributeList {}
+    classes: List {}
+    identifier: ""
+  }
+  bodies: List {
+    [1] {
+      attr: Attr {
+        attributes: AttributeList {}
+        classes: List {}
+        identifier: ""
+      }
+      body: List {
+        [1] pandoc.Row {
+          attr: Attr {
+            attributes: AttributeList {}
+            classes: List {}
+            identifier: ""
+          }
+          cells: List {
+            [1] pandoc.Cell {
+              alignment: "AlignDefault"
+              attr: Attr {
+                attributes: AttributeList {}
+                classes: List {}
+                identifier: ""
+              }
+              col_span: 1
+              contents: Blocks {
+                [1] Plain {
+                  content: Inlines {
+                    [1] Str "ValA"
+                  }
+                }
+              }
+              row_span: 1
+            }
+            [2] pandoc.Cell {
+              alignment: "AlignDefault"
+              attr: Attr {
+                attributes: AttributeList {}
+                classes: List {}
+                identifier: ""
+              }
+              col_span: 1
+              contents: Blocks {
+                [1] Plain {
+                  content: Inlines {
+                    [1] Str "ValB"
+                  }
+                }
+              }
+              row_span: 1
+            }
+          }
+        }
+      }
+      head: List {}
+      row_head_columns: 0
+    }
+  }
+  caption: {
+    long: Blocks {}
+  }
+  colspecs: List {
+    [1] {
+      [1] "AlignDefault"
+    }
+    [2] {
+      [1] "AlignDefault"
+    }
+  }
+  foot: pandoc.TableFoot {
+    attr: Attr {
+      attributes: AttributeList {}
+      classes: List {}
+      identifier: ""
+    }
+    rows: List {}
+  }
+  head: pandoc.TableHead {
+    attr: Attr {
+      attributes: AttributeList {}
+      classes: List {}
+      identifier: ""
+    }
+    rows: List {
+      [1] pandoc.Row {
+        attr: Attr {
+          attributes: AttributeList {}
+          classes: List {}
+          identifier: ""
+        }
+        cells: List {
+          [1] pandoc.Cell {
+            alignment: "AlignDefault"
+            attr: Attr {
+              attributes: AttributeList {}
+              classes: List {}
+              identifier: ""
+            }
+            col_span: 1
+            contents: Blocks {
+              [1] Plain {
+                content: Inlines {
+                  [1] Str "Col1"
+                }
+              }
+            }
+            row_span: 1
+          }
+          [2] pandoc.Cell {
+            alignment: "AlignDefault"
+            attr: Attr {
+              attributes: AttributeList {}
+              classes: List {}
+              identifier: ""
+            }
+            col_span: 1
+            contents: Blocks {
+              [1] Plain {
+                content: Inlines {
+                  [1] Str "Col2"
+                }
+              }
+            }
+            row_span: 1
+          }
+        }
+      }
+    }
+  }
+}
+BulletList-----------
+(I) Bulletlist items: BulletList {
+  content: List {
+    [1] Blocks {
+      [1] Para {
+        content: Inlines {
+          [1] Str "lists"
+          [2] Space
+          [3] Str "with"
+          [4] Space
+          [5] Str "nested"
+          [6] Space
+          [7] Str "content"
+        }
+      }
+      [2] Para {
+        content: Inlines {
+          [1] Str "Such"
+          [2] Space
+          [3] Str "as"
+          [4] Space
+          [5] Str "a"
+          [6] Space
+          [7] Str "paragraph"
+        }
+      }
+    }
+    [2] Blocks {
+      [1] Para {
+        content: Inlines {
+          [1] Str "or"
+          [2] Space
+          [3] Str "maybe"
+          [4] Space
+          [5] Str "a"
+          [6] Space
+          [7] Str "list"
+          [8] Space
+          [9] Str "with"
+          [10] Space
+          [11] Str "nested"
+          [12] Space
+          [13] Str "lists"
+        }
+      }
+      [2] BulletList {
+        content: List {
+          [1] Blocks {
+            [1] Plain {
+              content: Inlines {
+                [1] Str "nested"
+                [2] Space
+                [3] Str "1"
+              }
+            }
+            [2] BulletList {
+              content: List {
+                [1] Blocks {
+                  [1] Plain {
+                    content: Inlines {
+                      [1] Str "nested"
+                      [2] Space
+                      [3] Str "1a"
+                    }
+                  }
+                }
+              }
+            }
+          }
+          [2] Blocks {
+            [1] Plain {
+              content: Inlines {
+                [1] Str "nested"
+                [2] Space
+                [3] Str "2"
+              }
+            }
+          }
+        }
+      }
+    }
+    [3] Blocks {
+      [1] Para {
+        content: Inlines {
+          [1] Str "or"
+          [2] Space
+          [3] Str "maybe"
+          [4] Space
+          [5] Str "a"
+          [6] Space
+          [7] Str "nested"
+          [8] Space
+          [9] Str "code"
+          [10] Space
+          [11] Str "block"
+        }
+      }
+      [2] CodeBlock {
+        attr: Attr {
+          attributes: AttributeList {}
+          classes: List {
+            [1] "shell"
+          }
+          identifier: ""
+        }
+        text: "pandoc -t -f"
+      }
+    }
+    [4] Blocks {
+      [1] Para {
+        content: Inlines {
+          [1] Str "or"
+          [2] Space
+          [3] Str "maybe"
+          [4] Space
+          [5] Str "a"
+          [6] Space
+          [7] Str "table"
+        }
+      }
+      [2] Table {
+        attr: Attr {
+          attributes: AttributeList {}
+          classes: List {}
+          identifier: ""
+        }
+        bodies: List {
+          [1] {
+            attr: Attr {
+              attributes: AttributeList {}
+              classes: List {}
+              identifier: ""
+            }
+            body: List {
+              [1] pandoc.Row {
+                attr: Attr {
+                  attributes: AttributeList {}
+                  classes: List {}
+                  identifier: ""
+                }
+                cells: List {
+                  [1] pandoc.Cell {
+                    alignment: "AlignDefault"
+                    attr: Attr {
+                      attributes: AttributeList {}
+                      classes: List {}
+                      identifier: ""
+                    }
+                    col_span: 1
+                    contents: Blocks {
+                      [1] Plain {
+                        content: Inlines {
+                          [1] Str "ValA"
+                        }
+                      }
+                    }
+                    row_span: 1
+                  }
+                  [2] pandoc.Cell {
+                    alignment: "AlignDefault"
+                    attr: Attr {
+                      attributes: AttributeList {}
+                      classes: List {}
+                      identifier: ""
+                    }
+                    col_span: 1
+                    contents: Blocks {
+                      [1] Plain {
+                        content: Inlines {
+                          [1] Str "ValB"
+                        }
+                      }
+                    }
+                    row_span: 1
+                  }
+                }
+              }
+            }
+            head: List {}
+            row_head_columns: 0
+          }
+        }
+        caption: {
+          long: Blocks {}
+        }
+        colspecs: List {
+          [1] {
+            [1] "AlignDefault"
+          }
+          [2] {
+            [1] "AlignDefault"
+          }
+        }
+        foot: pandoc.TableFoot {
+          attr: Attr {
+            attributes: AttributeList {}
+            classes: List {}
+            identifier: ""
+          }
+          rows: List {}
+        }
+        head: pandoc.TableHead {
+          attr: Attr {
+            attributes: AttributeList {}
+            classes: List {}
+            identifier: ""
+          }
+          rows: List {
+            [1] pandoc.Row {
+              attr: Attr {
+                attributes: AttributeList {}
+                classes: List {}
+                identifier: ""
+              }
+              cells: List {
+                [1] pandoc.Cell {
+                  alignment: "AlignDefault"
+                  attr: Attr {
+                    attributes: AttributeList {}
+                    classes: List {}
+                    identifier: ""
+                  }
+                  col_span: 1
+                  contents: Blocks {
+                    [1] Plain {
+                      content: Inlines {
+                        [1] Str "Col1"
+                      }
+                    }
+                  }
+                  row_span: 1
+                }
+                [2] pandoc.Cell {
+                  alignment: "AlignDefault"
+                  attr: Attr {
+                    attributes: AttributeList {}
+                    classes: List {}
+                    identifier: ""
+                  }
+                  col_span: 1
+                  contents: Blocks {
+                    [1] Plain {
+                      content: Inlines {
+                        [1] Str "Col2"
+                      }
+                    }
+                  }
+                  row_span: 1
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+Para-----------------
+(I) Para content: Para {
+  content: Inlines {
+    [1] Strong {
+      content: Inlines {
+        [1] Str "Note"
+      }
+    }
+    [2] Str ":"
+  }
+}
+Para-----------------
+(I) Para content: Para {
+  content: Inlines {
+    [1] Str "This"
+    [2] Space
+    [3] Str "is"
+    [4] Space
+    [5] Str "a"
+    [6] Space
+    [7] Str "blockquote."
+    [8] Space
+    [9] Str "Take"
+    [10] Space
+    [11] Str "note."
+  }
+}
+BlockQuote-----------
+(I) blockquote content: BlockQuote {
+  content: Blocks {
+    [1] Para {
+      content: Inlines {
+        [1] Strong {
+          content: Inlines {
+            [1] Str "Note"
+          }
+        }
+        [2] Str ":"
+      }
+    }
+    [2] Para {
+      content: Inlines {
+        [1] Str "This"
+        [2] Space
+        [3] Str "is"
+        [4] Space
+        [5] Str "a"
+        [6] Space
+        [7] Str "blockquote."
+        [8] Space
+        [9] Str "Take"
+        [10] Space
+        [11] Str "note."
+      }
+    }
+  }
+}
+Header---------------
+(I) Header content: Header {
+  attr: Attr {
+    attributes: AttributeList {}
+    classes: List {}
+    identifier: "inline"
+  }
+  content: Inlines {
+    [1] Str "Inline"
+  }
+  level: 2
+}
+Header---------------
+(I) Header content: Header {
+  attr: Attr {
+    attributes: AttributeList {}
+    classes: List {}
+    identifier: "citations"
+  }
+  content: Inlines {
+    [1] Str "Citations"
+  }
+  level: 3
+}
+Para-----------------
+(I) Para content: Para {
+  content: Inlines {
+    [1] Str "Pandoc"
+    [2] Space
+    [3] Str "supports"
+    [4] Space
+    [5] Str "citations"
+    [6] Space
+    [7] Cite {
+      citations: List {
+        [1] Citation {
+          hash: 0
+          id: "pandoc-1"
+          mode: "NormalCitation"
+          note_num: 1
+          prefix: Inlines {}
+          suffix: Inlines {}
+        }
+      }
+      content: Inlines {
+        [1] Str "[@pandoc-1]"
+      }
+    }
+  }
+}
+Header---------------
+(I) Header content: Header {
+  attr: Attr {
+    attributes: AttributeList {}
+    classes: List {}
+    identifier: "emphasis"
+  }
+  content: Inlines {
+    [1] Str "Emphasis"
+  }
+  level: 3
+}
+Para-----------------
+(I) Para content: Para {
+  content: Inlines {
+    [1] Str "This"
+    [2] Space
+    [3] Str "is"
+    [4] Space
+    [5] Emph {
+      content: Inlines {
+        [1] Str "emphasized"
+      }
+    }
+    [6] Str "."
+  }
+}
+Header---------------
+(I) Header content: Header {
+  attr: Attr {
+    attributes: AttributeList {}
+    classes: List {}
+    identifier: "strong"
+  }
+  content: Inlines {
+    [1] Str "Strong"
+  }
+  level: 3
+}
+Para-----------------
+(I) Para content: Para {
+  content: Inlines {
+    [1] Str "This"
+    [2] Space
+    [3] Str "is"
+    [4] Space
+    [5] Strong {
+      content: Inlines {
+        [1] Str "Strong"
+      }
+    }
+    [6] Str "."
+  }
+}
+Header---------------
+(I) Header content: Header {
+  attr: Attr {
+    attributes: AttributeList {}
+    classes: List {}
+    identifier: "strikeout"
+  }
+  content: Inlines {
+    [1] Str "Strikeout"
+  }
+  level: 3
+}
+Para-----------------
+(I) Para content: Para {
+  content: Inlines {
+    [1] Str "You"
+    [2] Space
+    [3] Str "can"
+    [4] Space
+    [5] Strikeout {
+      content: Inlines {
+        [1] Str "Strikeout"
+      }
+    }
+    [6] Space
+    [7] Str "at"
+    [8] Space
+    [9] Str "bat."
+  }
+}
+Header---------------
+(I) Header content: Header {
+  attr: Attr {
+    attributes: AttributeList {}
+    classes: List {}
+    identifier: "code"
+  }
+  content: Inlines {
+    [1] Str "Code"
+  }
+  level: 3
+}
+Para-----------------
+(I) Para content: Para {
+  content: Inlines {
+    [1] Str "This"
+    [2] Space
+    [3] Str "statement"
+    [4] Space
+    [5] Str "has"
+    [6] Space
+    [7] Str "a"
+    [8] Space
+    [9] Code {
+      attr: Attr {
+        attributes: AttributeList {}
+        classes: List {}
+        identifier: ""
+      }
+      text: "Code"
+    }
+    [10] Space
+    [11] Str "block"
+    [12] Space
+    [13] Str "in"
+    [14] Space
+    [15] Str "it."
+  }
+}
+Blocks--------------
+(I) Blocks elements: Blocks {[1] Plain {content: Inlines {[1] Str "apple"}}}
+Blocks--------------
+(I) Blocks elements: Blocks {[1] Plain {content: Inlines {[1] Str "orange"}}}
+Blocks--------------
+(I) Blocks elements: Blocks {[1] Plain {content: Inlines {[1] Str "banana"}}}
+Blocks--------------
+(I) Blocks elements: Blocks {[1] Plain {content: Inlines {[1] Str "First"}}}
+Blocks--------------
+(I) Blocks elements: Blocks {[1] Plain {content: Inlines {[1] Str "Second"}}}
+Blocks--------------
+(I) Blocks elements: Blocks {[1] Plain {content: Inlines {[1] Str "Third"}}}
+Blocks--------------
+(I) Blocks elements: Blocks {
+  [1] Para {
+    content: Inlines {
+      [1] Str "Content"
+      [2] Space
+      [3] Str "inside"
+      [4] Space
+      [5] Str "a"
+      [6] Space
+      [7] Str "div"
+    }
+  }
+}
+Blocks--------------
+(I) Blocks elements: Blocks {}
+Blocks--------------
+(I) Blocks elements: Blocks {
+  [1] Plain {
+    content: Inlines {
+      [1] Str "Column"
+      [2] Space
+      [3] Str "1"
+      [4] Space
+      [5] Str "Header"
+    }
+  }
+}
+Blocks--------------
+(I) Blocks elements: Blocks {
+  [1] Plain {
+    content: Inlines {
+      [1] Str "Column"
+      [2] Space
+      [3] Str "2"
+      [4] Space
+      [5] Str "Header"
+    }
+  }
+}
+Blocks--------------
+(I) Blocks elements: Blocks {
+  [1] Plain {
+    content: Inlines {
+      [1] Str "Column"
+      [2] Space
+      [3] Str "1"
+      [4] Space
+      [5] Str "Value"
+    }
+  }
+}
+Blocks--------------
+(I) Blocks elements: Blocks {
+  [1] Plain {
+    content: Inlines {
+      [1] Str "Column"
+      [2] Space
+      [3] Str "2"
+      [4] Space
+      [5] Str "Value"
+    }
+  }
+}
+Blocks--------------
+(I) Blocks elements: Blocks {
+  [1] Para {
+    content: Inlines {
+      [1] Str "lists"
+      [2] Space
+      [3] Str "with"
+      [4] Space
+      [5] Str "nested"
+      [6] Space
+      [7] Str "content"
+    }
+  }
+  [2] Para {
+    content: Inlines {
+      [1] Str "Such"
+      [2] Space
+      [3] Str "as"
+      [4] Space
+      [5] Str "a"
+      [6] Space
+      [7] Str "paragraph"
+    }
+  }
+}
+Blocks--------------
+(I) Blocks elements: Blocks {
+  [1] Plain {
+    content: Inlines {
+      [1] Str "nested"
+      [2] Space
+      [3] Str "1a"
+    }
+  }
+}
+Blocks--------------
+(I) Blocks elements: Blocks {
+  [1] Plain {
+    content: Inlines {
+      [1] Str "nested"
+      [2] Space
+      [3] Str "1"
+    }
+  }
+  [2] BulletList {
+    content: List {
+      [1] Blocks {
+        [1] Plain {
+          content: Inlines {
+            [1] Str "nested"
+            [2] Space
+            [3] Str "1a"
+          }
+        }
+      }
+    }
+  }
+}
+Blocks--------------
+(I) Blocks elements: Blocks {
+  [1] Plain {
+    content: Inlines {
+      [1] Str "nested"
+      [2] Space
+      [3] Str "2"
+    }
+  }
+}
+Blocks--------------
+(I) Blocks elements: Blocks {
+  [1] Para {
+    content: Inlines {
+      [1] Str "or"
+      [2] Space
+      [3] Str "maybe"
+      [4] Space
+      [5] Str "a"
+      [6] Space
+      [7] Str "list"
+      [8] Space
+      [9] Str "with"
+      [10] Space
+      [11] Str "nested"
+      [12] Space
+      [13] Str "lists"
+    }
+  }
+  [2] BulletList {
+    content: List {
+      [1] Blocks {
+        [1] Plain {
+          content: Inlines {
+            [1] Str "nested"
+            [2] Space
+            [3] Str "1"
+          }
+        }
+        [2] BulletList {
+          content: List {
+            [1] Blocks {
+              [1] Plain {
+                content: Inlines {
+                  [1] Str "nested"
+                  [2] Space
+                  [3] Str "1a"
+                }
+              }
+            }
+          }
+        }
+      }
+      [2] Blocks {
+        [1] Plain {
+          content: Inlines {
+            [1] Str "nested"
+            [2] Space
+            [3] Str "2"
+          }
+        }
+      }
+    }
+  }
+}
+Blocks--------------
+(I) Blocks elements: Blocks {
+  [1] Para {
+    content: Inlines {
+      [1] Str "or"
+      [2] Space
+      [3] Str "maybe"
+      [4] Space
+      [5] Str "a"
+      [6] Space
+      [7] Str "nested"
+      [8] Space
+      [9] Str "code"
+      [10] Space
+      [11] Str "block"
+    }
+  }
+  [2] CodeBlock {
+    attr: Attr {
+      attributes: AttributeList {}
+      classes: List {
+        [1] "shell"
+      }
+      identifier: ""
+    }
+    text: "pandoc -t -f"
+  }
+}
+Blocks--------------
+(I) Blocks elements: Blocks {}
+Blocks--------------
+(I) Blocks elements: Blocks {[1] Plain {content: Inlines {[1] Str "Col1"}}}
+Blocks--------------
+(I) Blocks elements: Blocks {[1] Plain {content: Inlines {[1] Str "Col2"}}}
+Blocks--------------
+(I) Blocks elements: Blocks {[1] Plain {content: Inlines {[1] Str "ValA"}}}
+Blocks--------------
+(I) Blocks elements: Blocks {[1] Plain {content: Inlines {[1] Str "ValB"}}}
+Blocks--------------
+(I) Blocks elements: Blocks {
+  [1] Para {
+    content: Inlines {
+      [1] Str "or"
+      [2] Space
+      [3] Str "maybe"
+      [4] Space
+      [5] Str "a"
+      [6] Space
+      [7] Str "table"
+    }
+  }
+  [2] Table {
+    attr: Attr {
+      attributes: AttributeList {}
+      classes: List {}
+      identifier: ""
+    }
+    bodies: List {
+      [1] {
+        attr: Attr {
+          attributes: AttributeList {}
+          classes: List {}
+          identifier: ""
+        }
+        body: List {
+          [1] pandoc.Row {
+            attr: Attr {
+              attributes: AttributeList {}
+              classes: List {}
+              identifier: ""
+            }
+            cells: List {
+              [1] pandoc.Cell {
+                alignment: "AlignDefault"
+                attr: Attr {
+                  attributes: AttributeList {}
+                  classes: List {}
+                  identifier: ""
+                }
+                col_span: 1
+                contents: Blocks {
+                  [1] Plain {
+                    content: Inlines {
+                      [1] Str "ValA"
+                    }
+                  }
+                }
+                row_span: 1
+              }
+              [2] pandoc.Cell {
+                alignment: "AlignDefault"
+                attr: Attr {
+                  attributes: AttributeList {}
+                  classes: List {}
+                  identifier: ""
+                }
+                col_span: 1
+                contents: Blocks {
+                  [1] Plain {
+                    content: Inlines {
+                      [1] Str "ValB"
+                    }
+                  }
+                }
+                row_span: 1
+              }
+            }
+          }
+        }
+        head: List {}
+        row_head_columns: 0
+      }
+    }
+    caption: {
+      long: Blocks {}
+    }
+    colspecs: List {
+      [1] {
+        [1] "AlignDefault"
+      }
+      [2] {
+        [1] "AlignDefault"
+      }
+    }
+    foot: pandoc.TableFoot {
+      attr: Attr {
+        attributes: AttributeList {}
+        classes: List {}
+        identifier: ""
+      }
+      rows: List {}
+    }
+    head: pandoc.TableHead {
+      attr: Attr {
+        attributes: AttributeList {}
+        classes: List {}
+        identifier: ""
+      }
+      rows: List {
+        [1] pandoc.Row {
+          attr: Attr {
+            attributes: AttributeList {}
+            classes: List {}
+            identifier: ""
+          }
+          cells: List {
+            [1] pandoc.Cell {
+              alignment: "AlignDefault"
+              attr: Attr {
+                attributes: AttributeList {}
+                classes: List {}
+                identifier: ""
+              }
+              col_span: 1
+              contents: Blocks {
+                [1] Plain {
+                  content: Inlines {
+                    [1] Str "Col1"
+                  }
+                }
+              }
+              row_span: 1
+            }
+            [2] pandoc.Cell {
+              alignment: "AlignDefault"
+              attr: Attr {
+                attributes: AttributeList {}
+                classes: List {}
+                identifier: ""
+              }
+              col_span: 1
+              contents: Blocks {
+                [1] Plain {
+                  content: Inlines {
+                    [1] Str "Col2"
+                  }
+                }
+              }
+              row_span: 1
+            }
+          }
+        }
+      }
+    }
+  }
+}
+Blocks--------------
+(I) Blocks elements: Blocks {
+  [1] Para {
+    content: Inlines {
+      [1] Strong {
+        content: Inlines {
+          [1] Str "Note"
+        }
+      }
+      [2] Str ":"
+    }
+  }
+  [2] Para {
+    content: Inlines {
+      [1] Str "This"
+      [2] Space
+      [3] Str "is"
+      [4] Space
+      [5] Str "a"
+      [6] Space
+      [7] Str "blockquote."
+      [8] Space
+      [9] Str "Take"
+      [10] Space
+      [11] Str "note."
+    }
+  }
+}
+Blocks--------------
+(I) Blocks elements: Blocks {
+  [1] Header {
+    attr: Attr {
+      attributes: AttributeList {}
+      classes: List {}
+      identifier: "example"
+    }
+    content: Inlines {
+      [1] Str "Example"
+    }
+    level: 1
+  }
+  [2] Header {
+    attr: Attr {
+      attributes: AttributeList {}
+      classes: List {}
+      identifier: "blocks"
+    }
+    content: Inlines {
+      [1] Str "Blocks"
+    }
+    level: 2
+  }
+  [3] Header {
+    attr: Attr {
+      attributes: AttributeList {}
+      classes: List {}
+      identifier: "paragraph"
+    }
+    content: Inlines {
+      [1] Str "Paragraph"
+    }
+    level: 3
+  }
+  [4] Para {
+    content: Inlines {
+      [1] Str "HereΓÇÖs"
+      [2] Space
+      [3] Str "a"
+      [4] Space
+      [5] Str "paragraph"
+    }
+  }
+  [5] Header {
+    attr: Attr {
+      attributes: AttributeList {}
+      classes: List {}
+      identifier: "bulleted-list"
+    }
+    content: Inlines {
+      [1] Str "Bulleted"
+      [2] Space
+      [3] Str "List"
+    }
+    level: 3
+  }
+  [6] BulletList {
+    content: List {
+      [1] Blocks {
+        [1] Plain {
+          content: Inlines {
+            [1] Str "apple"
+          }
+        }
+      }
+      [2] Blocks {
+        [1] Plain {
+          content: Inlines {
+            [1] Str "orange"
+          }
+        }
+      }
+      [3] Blocks {
+        [1] Plain {
+          content: Inlines {
+            [1] Str "banana"
+          }
+        }
+      }
+    }
+  }
+  [7] Header {
+    attr: Attr {
+      attributes: AttributeList {}
+      classes: List {}
+      identifier: "numbered-list"
+    }
+    content: Inlines {
+      [1] Str "Numbered"
+      [2] Space
+      [3] Str "List"
+    }
+    level: 3
+  }
+  [8] OrderedList {
+    content: List {
+      [1] Blocks {
+        [1] Plain {
+          content: Inlines {
+            [1] Str "First"
+          }
+        }
+      }
+      [2] Blocks {
+        [1] Plain {
+          content: Inlines {
+            [1] Str "Second"
+          }
+        }
+      }
+      [3] Blocks {
+        [1] Plain {
+          content: Inlines {
+            [1] Str "Third"
+          }
+        }
+      }
+    }
+    listAttributes: ListAttributes {
+      delimiter: "Period"
+      start: 1
+      style: "Decimal"
+    }
+  }
+  [9] Header {
+    attr: Attr {
+      attributes: AttributeList {}
+      classes: List {}
+      identifier: "codeblock"
+    }
+    content: Inlines {
+      [1] Str "Codeblock"
+    }
+    level: 3
+  }
+  [10] CodeBlock {
+    attr: Attr {
+      attributes: AttributeList {}
+      classes: List {
+        [1] "powershell"
+      }
+      identifier: ""
+    }
+    text: "# a code block
+write-host "hello world""
+  }
+  [11] Header {
+    attr: Attr {
+      attributes: AttributeList {}
+      classes: List {}
+      identifier: "div"
+    }
+    content: Inlines {
+      [1] Str "Div"
+    }
+    level: 3
+  }
+  [12] Div {
+    attr: Attr {
+      attributes: AttributeList {}
+      classes: List {
+        [1] "mermaid"
+      }
+      identifier: ""
+    }
+    content: Blocks {
+      [1] Para {
+        content: Inlines {
+          [1] Str "Content"
+          [2] Space
+          [3] Str "inside"
+          [4] Space
+          [5] Str "a"
+          [6] Space
+          [7] Str "div"
+        }
+      }
+    }
+  }
+  [13] Header {
+    attr: Attr {
+      attributes: AttributeList {}
+      classes: List {}
+      identifier: "table"
+    }
+    content: Inlines {
+      [1] Str "Table"
+    }
+    level: 3
+  }
+  [14] Table {
+    attr: Attr {
+      attributes: AttributeList {}
+      classes: List {}
+      identifier: ""
+    }
+    bodies: List {
+      [1] {
+        attr: Attr {
+          attributes: AttributeList {}
+          classes: List {}
+          identifier: ""
+        }
+        body: List {
+          [1] pandoc.Row {
+            attr: Attr {
+              attributes: AttributeList {}
+              classes: List {}
+              identifier: ""
+            }
+            cells: List {
+              [1] pandoc.Cell {
+                alignment: "AlignDefault"
+                attr: Attr {
+                  attributes: AttributeList {}
+                  classes: List {}
+                  identifier: ""
+                }
+                col_span: 1
+                contents: Blocks {
+                  [1] Plain {
+                    content: Inlines {
+                      [1] Str "Column"
+                      [2] Space
+                      [3] Str "1"
+                      [4] Space
+                      [5] Str "Value"
+                    }
+                  }
+                }
+                row_span: 1
+              }
+              [2] pandoc.Cell {
+                alignment: "AlignDefault"
+                attr: Attr {
+                  attributes: AttributeList {}
+                  classes: List {}
+                  identifier: ""
+                }
+                col_span: 1
+                contents: Blocks {
+                  [1] Plain {
+                    content: Inlines {
+                      [1] Str "Column"
+                      [2] Space
+                      [3] Str "2"
+                      [4] Space
+                      [5] Str "Value"
+                    }
+                  }
+                }
+                row_span: 1
+              }
+            }
+          }
+        }
+        head: List {}
+        row_head_columns: 0
+      }
+    }
+    caption: {
+      long: Blocks {}
+    }
+    colspecs: List {
+      [1] {
+        [1] "AlignDefault"
+      }
+      [2] {
+        [1] "AlignDefault"
+      }
+    }
+    foot: pandoc.TableFoot {
+      attr: Attr {
+        attributes: AttributeList {}
+        classes: List {}
+        identifier: ""
+      }
+      rows: List {}
+    }
+    head: pandoc.TableHead {
+      attr: Attr {
+        attributes: AttributeList {}
+        classes: List {}
+        identifier: ""
+      }
+      rows: List {
+        [1] pandoc.Row {
+          attr: Attr {
+            attributes: AttributeList {}
+            classes: List {}
+            identifier: ""
+          }
+          cells: List {
+            [1] pandoc.Cell {
+              alignment: "AlignDefault"
+              attr: Attr {
+                attributes: AttributeList {}
+                classes: List {}
+                identifier: ""
+              }
+              col_span: 1
+              contents: Blocks {
+                [1] Plain {
+                  content: Inlines {
+                    [1] Str "Column"
+                    [2] Space
+                    [3] Str "1"
+                    [4] Space
+                    [5] Str "Header"
+                  }
+                }
+              }
+              row_span: 1
+            }
+            [2] pandoc.Cell {
+              alignment: "AlignDefault"
+              attr: Attr {
+                attributes: AttributeList {}
+                classes: List {}
+                identifier: ""
+              }
+              col_span: 1
+              contents: Blocks {
+                [1] Plain {
+                  content: Inlines {
+                    [1] Str "Column"
+                    [2] Space
+                    [3] Str "2"
+                    [4] Space
+                    [5] Str "Header"
+                  }
+                }
+              }
+              row_span: 1
+            }
+          }
+        }
+      }
+    }
+  }
+  [15] Header {
+    attr: Attr {
+      attributes: AttributeList {}
+      classes: List {}
+      identifier: "bulletlists-with-nested-content"
+    }
+    content: Inlines {
+      [1] Str "BulletLists"
+      [2] Space
+      [3] Str "with"
+      [4] Space
+      [5] Str "Nested"
+      [6] Space
+      [7] Str "Content"
+    }
+    level: 3
+  }
+  [16] BulletList {
+    content: List {
+      [1] Blocks {
+        [1] Para {
+          content: Inlines {
+            [1] Str "lists"
+            [2] Space
+            [3] Str "with"
+            [4] Space
+            [5] Str "nested"
+            [6] Space
+            [7] Str "content"
+          }
+        }
+        [2] Para {
+          content: Inlines {
+            [1] Str "Such"
+            [2] Space
+            [3] Str "as"
+            [4] Space
+            [5] Str "a"
+            [6] Space
+            [7] Str "paragraph"
+          }
+        }
+      }
+      [2] Blocks {
+        [1] Para {
+          content: Inlines {
+            [1] Str "or"
+            [2] Space
+            [3] Str "maybe"
+            [4] Space
+            [5] Str "a"
+            [6] Space
+            [7] Str "list"
+            [8] Space
+            [9] Str "with"
+            [10] Space
+            [11] Str "nested"
+            [12] Space
+            [13] Str "lists"
+          }
+        }
+        [2] BulletList {
+          content: List {
+            [1] Blocks {
+              [1] Plain {
+                content: Inlines {
+                  [1] Str "nested"
+                  [2] Space
+                  [3] Str "1"
+                }
+              }
+              [2] BulletList {
+                content: List {
+                  [1] Blocks {
+                    [1] Plain {
+                      content: Inlines {
+                        [1] Str "nested"
+                        [2] Space
+                        [3] Str "1a"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            [2] Blocks {
+              [1] Plain {
+                content: Inlines {
+                  [1] Str "nested"
+                  [2] Space
+                  [3] Str "2"
+                }
+              }
+            }
+          }
+        }
+      }
+      [3] Blocks {
+        [1] Para {
+          content: Inlines {
+            [1] Str "or"
+            [2] Space
+            [3] Str "maybe"
+            [4] Space
+            [5] Str "a"
+            [6] Space
+            [7] Str "nested"
+            [8] Space
+            [9] Str "code"
+            [10] Space
+            [11] Str "block"
+          }
+        }
+        [2] CodeBlock {
+          attr: Attr {
+            attributes: AttributeList {}
+            classes: List {
+              [1] "shell"
+            }
+            identifier: ""
+          }
+          text: "pandoc -t -f"
+        }
+      }
+      [4] Blocks {
+        [1] Para {
+          content: Inlines {
+            [1] Str "or"
+            [2] Space
+            [3] Str "maybe"
+            [4] Space
+            [5] Str "a"
+            [6] Space
+            [7] Str "table"
+          }
+        }
+        [2] Table {
+          attr: Attr {
+            attributes: AttributeList {}
+            classes: List {}
+            identifier: ""
+          }
+          bodies: List {
+            [1] {
+              attr: Attr {
+                attributes: AttributeList {}
+                classes: List {}
+                identifier: ""
+              }
+              body: List {
+                [1] pandoc.Row {
+                  attr: Attr {
+                    attributes: AttributeList {}
+                    classes: List {}
+                    identifier: ""
+                  }
+                  cells: List {
+                    [1] pandoc.Cell {
+                      alignment: "AlignDefault"
+                      attr: Attr {
+                        attributes: AttributeList {}
+                        classes: List {}
+                        identifier: ""
+                      }
+                      col_span: 1
+                      contents: Blocks {
+                        [1] Plain {
+                          content: Inlines {
+                            [1] Str "ValA"
+                          }
+                        }
+                      }
+                      row_span: 1
+                    }
+                    [2] pandoc.Cell {
+                      alignment: "AlignDefault"
+                      attr: Attr {
+                        attributes: AttributeList {}
+                        classes: List {}
+                        identifier: ""
+                      }
+                      col_span: 1
+                      contents: Blocks {
+                        [1] Plain {
+                          content: Inlines {
+                            [1] Str "ValB"
+                          }
+                        }
+                      }
+                      row_span: 1
+                    }
+                  }
+                }
+              }
+              head: List {}
+              row_head_columns: 0
+            }
+          }
+          caption: {
+            long: Blocks {}
+          }
+          colspecs: List {
+            [1] {
+              [1] "AlignDefault"
+            }
+            [2] {
+              [1] "AlignDefault"
+            }
+          }
+          foot: pandoc.TableFoot {
+            attr: Attr {
+              attributes: AttributeList {}
+              classes: List {}
+              identifier: ""
+            }
+            rows: List {}
+          }
+          head: pandoc.TableHead {
+            attr: Attr {
+              attributes: AttributeList {}
+              classes: List {}
+              identifier: ""
+            }
+            rows: List {
+              [1] pandoc.Row {
+                attr: Attr {
+                  attributes: AttributeList {}
+                  classes: List {}
+                  identifier: ""
+                }
+                cells: List {
+                  [1] pandoc.Cell {
+                    alignment: "AlignDefault"
+                    attr: Attr {
+                      attributes: AttributeList {}
+                      classes: List {}
+                      identifier: ""
+                    }
+                    col_span: 1
+                    contents: Blocks {
+                      [1] Plain {
+                        content: Inlines {
+                          [1] Str "Col1"
+                        }
+                      }
+                    }
+                    row_span: 1
+                  }
+                  [2] pandoc.Cell {
+                    alignment: "AlignDefault"
+                    attr: Attr {
+                      attributes: AttributeList {}
+                      classes: List {}
+                      identifier: ""
+                    }
+                    col_span: 1
+                    contents: Blocks {
+                      [1] Plain {
+                        content: Inlines {
+                          [1] Str "Col2"
+                        }
+                      }
+                    }
+                    row_span: 1
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  [17] BlockQuote {
+    content: Blocks {
+      [1] Para {
+        content: Inlines {
+          [1] Strong {
+            content: Inlines {
+              [1] Str "Note"
+            }
+          }
+          [2] Str ":"
+        }
+      }
+      [2] Para {
+        content: Inlines {
+          [1] Str "This"
+          [2] Space
+          [3] Str "is"
+          [4] Space
+          [5] Str "a"
+          [6] Space
+          [7] Str "blockquote."
+          [8] Space
+          [9] Str "Take"
+          [10] Space
+          [11] Str "note."
+        }
+      }
+    }
+  }
+  [18] Header {
+    attr: Attr {
+      attributes: AttributeList {}
+      classes: List {}
+      identifier: "inline"
+    }
+    content: Inlines {
+      [1] Str "Inline"
+    }
+    level: 2
+  }
+  [19] Header {
+    attr: Attr {
+      attributes: Attribut[INFO] Completed filter 1_logging.lua in 125 ms
+eList {}
+      classes: List {}
+      identifier: "citations"
+    }
+    content: Inlines {
+      [1] Str "Citations"
+    }
+    level: 3
+  }
+  [20] Para {
+    content: Inlines {
+      [1] Str "Pandoc"
+      [2] Space
+      [3] Str "supports"
+      [4] Space
+      [5] Str "citations"
+      [6] Space
+      [7] Cite {
+        citations: List {
+          [1] Citation {
+            hash: 0
+            id: "pandoc-1"
+            mode: "NormalCitation"
+            note_num: 1
+            prefix: Inlines {}
+            suffix: Inlines {}
+          }
+        }
+        content: Inlines {
+          [1] Str "[@pandoc-1]"
+        }
+      }
+    }
+  }
+  [21] Header {
+    attr: Attr {
+      attributes: AttributeList {}
+      classes: List {}
+      identifier: "emphasis"
+    }
+    content: Inlines {
+      [1] Str "Emphasis"
+    }
+    level: 3
+  }
+  [22] Para {
+    content: Inlines {
+      [1] Str "This"
+      [2] Space
+      [3] Str "is"
+      [4] Space
+      [5] Emph {
+        content: Inlines {
+          [1] Str "emphasized"
+        }
+      }
+      [6] Str "."
+    }
+  }
+  [23] Header {
+    attr: Attr {
+      attributes: AttributeList {}
+      classes: List {}
+      identifier: "strong"
+    }
+    content: Inlines {
+      [1] Str "Strong"
+    }
+    level: 3
+  }
+  [24] Para {
+    content: Inlines {
+      [1] Str "This"
+      [2] Space
+      [3] Str "is"
+      [4] Space
+      [5] Strong {
+        content: Inlines {
+          [1] Str "Strong"
+        }
+      }
+      [6] Str "."
+    }
+  }
+  [25] Header {
+    attr: Attr {
+      attributes: AttributeList {}
+      classes: List {}
+      identifier: "strikeout"
+    }
+    content: Inlines {
+      [1] Str "Strikeout"
+    }
+    level: 3
+  }
+  [26] Para {
+    content: Inlines {
+      [1] Str "You"
+      [2] Space
+      [3] Str "can"
+      [4] Space
+      [5] Strikeout {
+        content: Inlines {
+          [1] Str "Strikeout"
+        }
+      }
+      [6] Space
+      [7] Str "at"
+      [8] Space
+      [9] Str "bat."
+    }
+  }
+  [27] Header {
+    attr: Attr {
+      attributes: AttributeList {}
+      classes: List {}
+      identifier: "code"
+    }
+    content: Inlines {
+      [1] Str "Code"
+    }
+    level: 3
+  }
+  [28] Para {
+    content: Inlines {
+      [1] Str "This"
+      [2] Space
+      [3] Str "statement"
+      [4] Space
+      [5] Str "has"
+      [6] Space
+      [7] Str "a"
+      [8] Space
+      [9] Code {
+        attr: Attr {
+          attributes: AttributeList {}
+          classes: List {}
+          identifier: ""
+        }
+        text: "Code"
+      }
+      [10] Space
+      [11] Str "block"
+      [12] Space
+      [13] Str "in"
+      [14] Space
+      [15] Str "it."
+    }
+  }
+}
+Meta-----------------
+(I) meta table: Meta {
+  about: Inlines {
+    [1] Str "an"
+    [2] Space
+    [3] Str "example"
+    [4] Space
+    [5] Str "to"
+    [6] Space
+    [7] Str "test"
+    [8] Space
+    [9] Str "logging"
+  }
+  tags: List {
+    [1] Inlines {
+      [1] Str "tag1"
+    }
+    [2] Inlines {
+      [1] Str "tag2"
+    }
+    [3] Inlines {
+      [1] Str "tag3"
+    }
+  }
+}
+Pandoc --------------
