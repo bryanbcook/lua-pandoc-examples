@@ -1,0 +1,1 @@
+pandoc test.md -t markdown --filter=filter-regex.lua
