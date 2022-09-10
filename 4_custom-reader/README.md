@@ -3,7 +3,7 @@
 This experiment attempts to use a `--filter` instead of a `--lua-filter` in order to process the raw markdown content using a [Custom Reader](https://pandoc.org/custom-readers.html).
 
 ```shell
-pandoc test.md -t markdown -f filter-regex.lua
+pandoc test.md -t markdown -f custom-reader.lua
 ```
 
 ## Findings
