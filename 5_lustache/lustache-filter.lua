@@ -1,8 +1,14 @@
-local lustache = require('lustache')
+local lustache = require('lustache') -- https://github.com/Olivine-Labs/lustache
 local logging  = require('logging')
 
 function Pandoc(doc)
-    local blocks = pandoc.List()   
+    local blocks = pandoc.List()
+
+    --[[
+    Note:
+        This parses all the input files separately.
+        This might not work in all scenarios. eg link definitions defined in separate files.
+    ]]--
 
     -- loop through input files
     local data = transform_meta(doc.meta)
