@@ -58,3 +58,5 @@ end
 For processing lists of data, I needed a simple way to pass the list from the `-M` command-line argument. I ended up passing values as a pipe-delimited (`|`) string and processing the meta in the filter.
 
 In one of my scenarios, I have multiple input files and one of the files contains all the link definitions. In this scenario, it might make more sense to concatenate the raw content of the files together and then reprocess them.
+
+Side note: why the hell does Lua not have a proper `string.split()`?
